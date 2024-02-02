@@ -1,0 +1,79 @@
+@-moz-document url-prefix("https://modules.lancaster.ac.uk"), url-prefix("https://development.lancaster.ac.uk") {
+    /* Items */
+    .activity-item:not(.activityinline) {
+        padding: 0 !important;
+        border: none;
+    }
+    
+    /* Inline items (?) */
+    .activity-item.activityinline {
+        padding: 0 !important;
+    }
+    
+    /* Item children */
+    .description .course-description-item:last-child {
+        padding-bottom: 0;
+    }
+    .description .course-description-item:first-child {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    
+    /* Section headings */
+    .secondary-navigation {
+        padding-bottom: 0;
+    }
+    /* Section heading text */
+    .lancs-course-format-all-sections .course-section .course-section-header .lancs-course-section-header-title > .position-relative {
+        margin: 0;
+        padding: 0.2rem;
+    }
+    /* Section heading "collapse all" text */
+    .lancs-course-format-all-sections .course-section .course-section-header .section-collapsemenu {
+        margin: 0;
+        padding: 0.2rem;
+    }
+    
+    /* Bottom of sections */
+    .lancs-course-format-all-sections .course-content-item-content {
+        margin-bottom: 0 !important;
+    }
+    
+    /* Left navigation pane */
+    .courseindex .courseindex-item {
+        padding: 0;
+    }
+    
+    /* Top navigation pane */
+    .moremenu .nav-link {
+        height: auto;
+    }
+    .moremenu {
+        height: auto;
+    }
+    
+    /* Item icon container box */
+    .activityiconcontainer {
+        width: auto;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    
+    /* Item icon itself */
+    .activityiconcontainer .activityicon, .activityiconcontainer .icon {
+        margin: 0.3rem;
+        padding: 0;
+    }
+    
+    /* Paragraphs */
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    /* Body text */
+    body {
+        line-height: 1.3;
+    }
+}
